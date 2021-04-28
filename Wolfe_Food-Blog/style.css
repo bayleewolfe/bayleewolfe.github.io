@@ -1,0 +1,130 @@
+/*===Typography===*/
+body, a{
+    font-family: ‘Helvetica’, ‘Arial’, sans-serif;
+    font-size: 14pt;
+    line-height: 18pt;
+    color: #000000;
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 72pt;
+}
+h2{
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+footer{
+    font-size: 10pt;
+    font-style: oblique;
+    color: #ffffff;
+    text-align: center;
+}
+nav a{
+    font-size: 18pt;
+    font-weight: bold;
+    color: #cdcdcd;
+}
+
+/*===Backgrounds===*/
+
+body{
+    background-color: #ffffff;
+}
+
+main{
+    background-color: #cdcdcd;
+}
+
+header, footer{
+    background-color: #000000;
+}
+
+#splash{
+    background-image: url(heading.jpg);
+        background-size: cover;
+}
+
+/*===Box Model===*/
+
+#splash{
+    height: 400px;
+}
+
+
+nav{
+    padding: 20px;
+}
+nav a{   
+    margin-left: 35px;
+}
+
+footer{
+    padding: 20px;
+}
+
+#foodarticles{
+    padding: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+article{
+    margin-bottom: 50px;
+}
+
+/*===Layout===*/
+
+.floatleft{
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+#container{
+    width: 1000px;
+    margin: auto;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+#splash{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+aside{
+    margin-left: 35px;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left:0px;
+    padding-left: 25px;
+    text-align: center;
+}
+
+body{
+    padding-top: 110px;
+}
+
+#ad{
+    position: fixed;
+    width: 350px;
+    bottom: 0px;
+    right:25px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 20px;
+    background-color: #ff0000;
+}
