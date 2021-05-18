@@ -1,0 +1,146 @@
+/*=The same contents=*/
+
+body{
+    font-family:'Montserrat', sans-serif;
+    font-size: 18pt;
+    background-color: #F8F4F1; 
+}
+
+header{
+    height: 75px;
+    font-size: 15pt;
+/*    display:flex;*/
+    background-color: #623A1D;
+    color: #FFFFFF;
+/*    align-items: center;*/
+/*    margin: auto;*/
+    
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 10% 60% 30%;
+    
+}
+nav div{
+    padding: 10px;
+}
+
+.alignleft{
+    text-align: left;
+}
+.alignright{
+    text-align: right;
+}
+header nav a{
+    color:#ffffff;
+    padding: 5px;
+    padding-left: 0px;
+    line-height: 300%;
+
+}
+
+header nav a:hover{
+    color:#96613A;
+}
+
+footer{
+    font-size: 8pt;
+    background-color: #623A1D;
+    height: 250px;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+a{
+    text-decoration: none;
+}
+
+a img{
+    padding-right: 7px;
+}
+nav div img{
+    padding-right: 0px;
+}
+
+#padding{
+    padding-right: 0px;
+    width: 50px;
+}
+
+footer section{
+    width: 200px;
+    padding: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+}
+
+.floatleft{
+    float: left;
+}
+.floatright{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+
+h1{
+    font-size: 100pt;
+    font-family: 'Satisfy', cursive;
+    color:#ffffff;
+}
+
+.banner{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;  
+}
+
+
+section div{
+    width:1000px;
+    margin: auto;
+    border: 2px solid #623A1D;
+    padding: 30px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    text-align: center;
+    color: #623A1D;
+}
+
+section div h2{
+    margin-top: 0px;
+    color: #96613A;
+}
+
+section div img{
+    width: 175px;
+    padding: 25px;
+    
+    
+}
+
+
+/*=homepage=*/
+
+.homebanner{
+    background-image:url(images/homepage/banner-home.jpg);
+    height: 500px;
+    display: flex;
+}
+
+.healthbanner{
+    background-image:url(images/health/healthy-banner.png);
+    height: 500px;
+    display: flex;
+}
